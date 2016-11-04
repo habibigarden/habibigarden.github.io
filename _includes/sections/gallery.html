@@ -1,0 +1,50 @@
+<!-- Testimonials Section -->
+<section class="site-section testimonials-section section-focus" id="galleries">
+
+
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.galleries-title }}</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.galleries-description }}</p>
+      </div>
+
+    </div>
+
+    <!-- Clients -->
+    <div class="row clients">
+
+      <!-- Testimonials Carousel -->
+      <div id="testimonials-carousel" class="col-md-8 col-md-push-2">
+
+        {% for gallery in site.galleries %}
+
+        <!-- Client Testimonial -->
+        <div class="client-testimonial text-center">
+          <!-- Testimonials Face -->
+          <!-- <div class="testimonial-face"> -->
+
+            <!-- <div class="face"> -->
+              <img src="{{ site.baseurl }}/images/galleries/{{ gallery.image }}" alt="Sera Avatar Image" />
+            <!-- </div> -->
+
+          <!-- </div> -->
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

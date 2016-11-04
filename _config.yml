@@ -17,9 +17,9 @@ title: Habibi Garden
 # Website language
 lang: en-US
 # Header Title
-header-title: Create the <strong>Impossible</strong>
+header-title: Talk To Your <strong>Plants</strong>
 # Header Tagline
-headter-tagline: We Always
+headter-tagline: 
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -112,36 +112,47 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+about-title: Welcome to HabibiGarden
+about-description: <b>Habibi</b> is a precision agriculture device that enabling you to communicate with your plant. It can feed crops precisely with right amount of dose based on real time soil- environment data collected. You can monitor plant performance anywhere - any time directly from smart phone. It can boost productivity, minimize expenses, and reduce the chance of crops failure.
 
 
 #####################################
 #############  Features  ############
 #####################################
-features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
+features-title: Values
+features-description: Our values is needed by any farmers.
 
 #
 # Features
 #
-features:
+features_row1:
 
 # Feature
-- title: Clean & Unique Design
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-vector
+- title: Insightful
+  description: Farmers know what’s happened on their plant.
+  icon: pe-7s-eyedropper
+  image: feature1.png
+  # icon: pe-7s-vector
 
 # Feature
-- title: Professional Support
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: Efficient
+  description: Reduce up to 21% of fertilizer cost Equal to USD 8,240-12,000 annually.
   icon: pe-7s-help2
+  image: feature1.png
 
 # Feature
-- title: Pixel Perfect
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: Brilliant
+  description: Automatic feed plant nutrient and water based on realtime condition.
   icon: pe-7s-airplay
+  image: feature1.png
 
+
+features_row2:
+
+# Feature
+- title: Convinient 
+  description: Report plant condition to you realtime.
+  image: feature1.png
 
 #####################################
 ############  Portfolio  ############
@@ -213,8 +224,8 @@ portfolio:
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: Core Features
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+core-title: Features
+core-description: Habibi Garden provides some features that will ease farmer's works. It provides Sensoring, Monitoring, Information gathering and notification, and also Smart Controlling.
 
 #
 # Core Features Left
@@ -222,24 +233,14 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 core-features-left:
 
 # Feature
-- name: Creative
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-light
+- name: Sensor
+  description: Habibi garden sensor collect real time data on temperature, humidity, soil moisture, and soil nutrient.
+  icon: pe-7s-signal
 
 # Feature
-- name: Minimalism
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-drop
-
-# Feature
-- name: Clean Coding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-coffee
-
-# Feature
-- name: Friendly
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-smile
+- name: Monitor
+  description: It monitor every aspect, from hydration to nutrition on the farm, track how humid or dry the condition. How much Sun light that crops getting trough out the day.
+  icon: pe-7s-monitor
 
 #
 # Core Features Right
@@ -247,24 +248,48 @@ core-features-left:
 core-features-right:
 
 # Feature
-- name: Branding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-wine
+- name: Notification
+  description: The device takes all information, process the data, and send notification to farmers when the crops need fertilizer/water and how much it needed.
+  icon: pe-7s-phone
 
 # Feature
-- name: Web Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-monitor
+- name: Control
+  description: Along with habibi garden sensor we also create habibi dosing pump. It’s a smart controller that performed calculation based on crops real time data that enabling crops get precisely what they need on the right amount of dose. This mean no under watering or over fertilizing, the crops just get exactly what they need. As the result farmers can boost productivity, minimize expenses, and greatly reduce the chance of crops failure.
+  icon: pe-7s-drop
 
-# Feature
-- name: Graphic Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-crop
 
-# Feature
-- name: Photography
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-camera
+#####################################
+########### Gallery #################
+#####################################
+galleries-title: Galleries
+galleries-description: Some of our work in field.
+
+#
+# Testimonials
+#
+galleries:
+
+# Images
+- image: 1.jpg
+- image: 2.jpg
+- image: 3.jpg
+- image: 4.jpg
+- image: 5.jpg
+- image: 6.jpg
+- image: 7.jpg
+- image: 8.jpg
+- image: 9.jpg
+- image: 10.jpg
+- image: 11.jpg
+- image: 12.jpg
+- image: 13.jpg
+- image: 14.jpg
+- image: 15.jpg
+- image: 16.jpg
+- image: 17.jpg
+- image: 18.jpg
+  
+
 
 
 #####################################
