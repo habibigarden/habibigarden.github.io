@@ -24,7 +24,39 @@
       {% for feature in site.features_row1 %}
 
       <!-- using pe icon 7 stroke -->
+      <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 feature">
+        <div class="icon parent">
+          <div class="circle parent">
+            <div class="circle child-center">
+              <i class="{{ feature.icon }} child-center"></i>
+            </div>
+          </div>
+        </div>
+        <div class="content text-center">
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+          <br>
+          <br>
+        </div>
+      </div>
+
+      <!-- using image -->
       <!-- <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 feature">
+        <div class="icon parent">
+            <center><img src="{{ site.baseurl }}/images/features/{{ feature.image }}"/></center>
+        </div>
+        <div class="content text-center">
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+        </div>
+      </div> -->
+
+      {% endfor %}
+
+
+      {% for feature in site.features_row2 %}
+      <!-- using pe icon 7 stroke -->
+      <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 feature">
         <div class="icon parent">
           <div class="circle parent">
             <div class="circle child-center">
@@ -36,33 +68,18 @@
           <h3>{{ feature.title }}</h3>
           <p>{{ feature.description }}</p>
         </div>
+      </div>
+
+      <!-- using image -->
+      <!-- <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 feature">
+        <div class="icon parent">
+            <center><img src="{{ site.baseurl }}/images/features/{{ feature.image }}"/></center>
+        </div>
+        <div class="content text-center">
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+        </div>
       </div> -->
-
-      <!-- using image -->
-      <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 feature">
-        <div class="icon parent">
-            <center><img src="{{ site.baseurl }}/images/features/{{ feature.image }}"/></center>
-        </div>
-        <div class="content text-center">
-          <h3>{{ feature.title }}</h3>
-          <p>{{ feature.description }}</p>
-        </div>
-      </div>
-
-      {% endfor %}
-
-
-      {% for feature in site.features_row2 %}
-      <!-- using image -->
-      <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 feature">
-        <div class="icon parent">
-            <center><img src="{{ site.baseurl }}/images/features/{{ feature.image }}"/></center>
-        </div>
-        <div class="content text-center">
-          <h3>{{ feature.title }}</h3>
-          <p>{{ feature.description }}</p>
-        </div>
-      </div>
       {% endfor %}
       
 

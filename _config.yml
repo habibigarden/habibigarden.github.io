@@ -17,9 +17,9 @@ title: Habibi Garden
 # Website language
 lang: en-US
 # Header Title
-header-title: Talk To Your <strong>Plants</strong>
+header-title: 
 # Header Tagline
-headter-tagline: 
+headter-tagline: Talk To Your <strong>Plants</strong>
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -114,7 +114,10 @@ mailchimp:
 #####################################
 about-title: Welcome to HabibiGarden
 about-description: <b>Habibi</b> is a precision agriculture device that enabling you to communicate with your plant. It can feed crops precisely with right amount of dose based on real time soil- environment data collected. You can monitor plant performance anywhere - any time directly from smart phone. It can boost productivity, minimize expenses, and reduce the chance of crops failure.
-
+about-device: The IoT service we used utilize realtime sensor toward light intensity, humidity, moisture, and crops nutrient. This device gather information and process them so that they can notify the farmers and show some useful information about the crops. 
+about-problem: <b>Problems we solve:</b> We did some field visit to group of farmers in cipanas (west java). Most of the farmer’s have a common problems :fertilizer, crops failure, and yield productivity. In Gretas’s Tomato Farm for example.  They dealing with bloosom-end Root disease that make yield less productive, high employee turn off due to they must watering 2000m2 tomato green house 5times a day, and high cost of fertilizer. So they request to us, to create a technology that can solve their problem and make them more productive. That’s where habibi garden idea come from. We choose solving this problem because we believe nothing sexier than serve a food on the table and we also want to be a part of solution on this country.
+about-howitworks: How it works
+about-image: howwork.jpg
 
 #####################################
 #############  Features  ############
@@ -143,7 +146,7 @@ features_row1:
 # Feature
 - title: Brilliant
   description: Automatic feed plant nutrient and water based on realtime condition.
-  icon: pe-7s-airplay
+  icon: pe-7s-light
   image: feature1.png
 
 
@@ -152,6 +155,7 @@ features_row2:
 # Feature
 - title: Convinient 
   description: Report plant condition to you realtime.
+  icon: pe-7s-phone
   image: feature1.png
 
 #####################################
@@ -339,15 +343,15 @@ testimonials:
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+blog-title: Blog
+blog-description: Keep Updated and Read latest news from us.
 
 
 #####################################
 ############### Team ################
 #####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+team-title: Team
+team-description: Meet Our Awesome Team.
 
 #
 # Team Members
@@ -355,9 +359,9 @@ team-description: Nulla a tellus at turpis gravida congue non interdum et malesu
 team:
 
 # Team Member
-- name: Jack Skilton
-  tagline: Graphic Designer
-  avatar: avatar-01.jpg
+- name: Dian P. Susanto
+  tagline: CEO
+  avatar: dpsusanto.jpg
 
   # Social Links
   youtube: '#'
@@ -368,8 +372,21 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: James Young
-  tagline: Developer
+- name: Irsan Rajamin
+  tagline: CTO
+  avatar: irsanrajamin.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Hisman
+  tagline: Web Programmer
   avatar: avatar-02.jpg
 
   # Social Links
@@ -381,9 +398,9 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Johnatan Doe
-  tagline: Hacker
-  avatar: avatar-04.jpg
+- name: Ahda
+  tagline: Android Programmer
+  avatar: avatar-02.jpg
 
   # Social Links
   youtube: '#'
@@ -394,9 +411,9 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Ecaterina Doe
-  tagline: Support Expert
-  avatar: avatar-03.jpg
+- name: Rizky 
+  tagline: Designer
+  avatar: avatar-02.jpg
 
   # Social Links
   youtube: '#'
@@ -406,6 +423,18 @@ team:
   google-plus: '#'
   vimeo: '#'
 
+# Team Member
+- name: Suparan
+  tagline: Soil Scientist
+  avatar: avatar-02.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
 
 #####################################
 ########## Pricing Tables ###########
