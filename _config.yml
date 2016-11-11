@@ -117,7 +117,7 @@ about-description: <b>Habibi</b> is a precision agriculture device that enabling
 about-device: The IoT service we used utilize realtime sensor toward light intensity, humidity, moisture, and crops nutrient. This device gather information and process them so that they can notify the farmers and show some useful information about the crops. 
 about-problem: <b>Problems we solve:</b> We did some field visit to group of farmers in cipanas (west java). Most of the farmer’s have a common problems :fertilizer, crops failure, and yield productivity. In Gretas’s Tomato Farm for example.  They dealing with bloosom-end Root disease that make yield less productive, high employee turn off due to they must watering 2000m2 tomato green house 5times a day, and high cost of fertilizer. So they request to us, to create a technology that can solve their problem and make them more productive. That’s where habibi garden idea come from. We choose solving this problem because we believe nothing sexier than serve a food on the table and we also want to be a part of solution on this country.
 about-howitworks: How it works
-about-image: howwork.jpg
+about-image: howwork.JPG
 
 #####################################
 #############  Features  ############
@@ -133,14 +133,14 @@ features_row1:
 # Feature
 - title: Insightful
   description: Farmers know what’s happened on their plant.
-  icon: pe-7s-eyedropper
+  icon: pe-7s-info
   image: feature1.png
   # icon: pe-7s-vector
 
 # Feature
 - title: Efficient
   description: Reduce up to 21% of fertilizer cost Equal to USD 8,240-12,000 annually.
-  icon: pe-7s-help2
+  icon: pe-7s-check
   image: feature1.png
 
 # Feature
@@ -259,14 +259,14 @@ core-features-right:
 # Feature
 - name: Control
   description: Along with habibi garden sensor we also create habibi dosing pump. It’s a smart controller that performed calculation based on crops real time data that enabling crops get precisely what they need on the right amount of dose. This mean no under watering or over fertilizing, the crops just get exactly what they need. As the result farmers can boost productivity, minimize expenses, and greatly reduce the chance of crops failure.
-  icon: pe-7s-drop
+  icon: pe-7s-config
 
 
 #####################################
 ########### Gallery #################
 #####################################
 galleries-title: Galleries
-galleries-description: Some of our work in field.
+galleries-description: Some of our works in field.
 
 #
 # Testimonials
@@ -375,45 +375,6 @@ team:
 - name: Irsan Rajamin
   tagline: CTO
   avatar: irsanrajamin.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Hisman
-  tagline: Web Programmer
-  avatar: avatar-02.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Ahda
-  tagline: Android Programmer
-  avatar: avatar-02.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Rizky 
-  tagline: Designer
-  avatar: avatar-02.jpg
 
   # Social Links
   youtube: '#'
