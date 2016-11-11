@@ -17,9 +17,9 @@ title: Habibi Garden
 # Website language
 lang: en-US
 # Header Title
-header-title: 
+header-title: Talk To Your <strong>Plants</strong>
 # Header Tagline
-headter-tagline: Talk To Your <strong>Plants</strong>
+headter-tagline: 
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -89,10 +89,10 @@ about-widget:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-map-text: Sera Google Map
-map-text-location: Bucharest, Romania
-map-lat: 44.4267674
-map-lng: 26.102538399999958
+map-text: HabibiGarden Map
+map-text-location: Bekasi, Indonesia
+map-lat: -6.244671
+map-lng: 106.990440
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
@@ -477,7 +477,7 @@ plan-ultimate-url: '#'
 ############   Contact   ############
 #####################################
 contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-description: .
 
 
 #####################################
